@@ -8,4 +8,12 @@
 
 
 ## Unspervised learning 
+• How it works: The model works with unlabeled data. There are no right answers provided; instead, the algorithm tries to discover hidden patterns, structures, or groupings in the data on its own.
+• Common tasks: Clustering (grouping similar items) and dimensionality reduction.
+• Examples: Customer segmentation, recommendation grouping, anomaly detection.
+
 ## Reinforced learning 
+
+•  An agent learns to make decisions by trial and error in an environment. It receives rewards for good actions and penalties (or negative feedback) for bad actions, gradually optimizing its behavior (policy) over time.
+• Common tasks: Decision-making, sequential control.
+• Examples: Autonomous driving, game-playing AI (like chess or Atari), robotic arm control.
