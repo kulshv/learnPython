@@ -30,7 +30,7 @@ def main() -> None:
             "about weather, and make clear that its data is sample data."
         ),
     )
-    chat = client.chats.create(model="gemini-3.8-flash", config=config)
+    chat = client.chats.create(model="gemini-3-flash-preview", config=config)
     response = chat.send_message("What is the weather like in Tokyo?")
     print(response.text)
 
